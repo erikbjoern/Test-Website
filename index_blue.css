@@ -45,6 +45,7 @@ a:hover {
     list-style-type: none;
     height: 100%;
     margin: 0;
+    padding-left : 0 !important
 }
 
 #navbar > ul > li{
