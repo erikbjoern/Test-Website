@@ -49,12 +49,12 @@ a {
     display: inline-block;
     margin: 0;
     text-decoration: none;
-    color:rgb(99, 130, 252);
+    color:rgb(1, 1, 200);
     padding-top: 21px;
 }
 
 #navbar > ul > li:hover {
-    background-color: rgb(99, 130, 252);
+    background-color: rgb(1, 1, 200);
     transition: 0.3s;
 }
 
@@ -64,7 +64,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: white !important;
     transition: 0.3s;
 }
 

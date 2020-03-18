@@ -51,18 +51,23 @@ a {
     display: inline-block;
     margin: 0;
     text-decoration: none;
-    color:rgb(173, 252, 99);
+    color:rgb(34, 200, 1);
     padding-top: 21px;
 }
 
 #navbar > ul > li:hover{  
-    background-color: rgb(173, 252, 99);
+    background-color: rgb(34, 200, 1);
+    transition: 0.3s;
+}
+
+#navbar > ul > li:hover a{
+    color: rgb(217, 253, 158);
     transition: 0.3s;
 }
 
 a:hover {
-    color:rgb(34, 200, 1);
-    transition: 0.4s;
+    color: white !important;
+    transition: 0.3s;
 }
 
 .grid {
