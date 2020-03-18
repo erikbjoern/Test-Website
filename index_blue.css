@@ -2,7 +2,7 @@
     position: absolute;
     width: 25%;
     padding: 5%;
-    padding-top: 10%
+    padding-top: 12%
 }
 
 h1 {
@@ -13,19 +13,17 @@ h1 {
 
 p {
     padding-left: 5%;
-    padding-top: 2%
+}
+
+body {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
-    color:white;
+    color:rgb(99, 130, 252);
     width: 34%;
     height: 100%;
-}
-
-a:hover {
-    color: rgb(1, 1, 200);
-    transition: 0.4s;
 }
 
 #navbar {
@@ -45,7 +43,9 @@ a:hover {
     list-style-type: none;
     height: 100%;
     margin: 0;
-    padding-left : 0 !important
+    padding-left : 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 #navbar > ul > li{
@@ -56,15 +56,25 @@ a:hover {
     padding-top: 0px;
 }
 
-#navbar > ul > li:hover{
-    
+#navbar > ul > li:hover {
     background-color: rgb(99, 130, 252);
+    transition: 0.3s;
+}
+
+#navbar > ul > li:hover a{
+    color: rgb(158, 196, 253);
+    transition: 0.3s;
+}
+
+a:hover {
+    color: white;
     transition: 0.3s;
 }
 
 .grid {
     width: 60%;
     margin-left: 35%;
+    padding-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto
