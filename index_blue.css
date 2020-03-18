@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .information {
     position: absolute;
     width: 25%;
@@ -15,20 +19,9 @@ p {
     padding-left: 5%;
 }
 
-body {
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-    color:rgb(99, 130, 252);
-    width: 34%;
-    height: 100%;
-}
-
 #navbar {
     width: 100%;
-    height: 100px;
+    height: 80px;
     font-size: 200%;
     font-family: Arial;
     font-weight: 1;
@@ -44,16 +37,20 @@ a {
     height: 100%;
     margin: 0;
     padding-left : 0;
-    margin-block-start: 0;
-    margin-block-end: 0;
 }
 
-#navbar > ul > li{
+#navbar > ul > li {
     height: 100%;
     width: 34%;
     text-align: center;
-    align-content: center;
-    padding-top: 0px;
+}
+
+a {
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+    color:rgb(99, 130, 252);
+    padding-top: 21px;
 }
 
 #navbar > ul > li:hover {
